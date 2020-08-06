@@ -1,0 +1,115 @@
+<resources>
+
+    <string name="app_name">Jal Abhilekh</string>
+    <string name="app_name_en">Jal Abhilekh</string>
+    <!--    <string name="app_name_fr">Records de l\'eau</string>-->
+    <string name="app_name_tl">நீர் பதிவு</string>
+    <string name="app_name_hn">जल अभिलेख</string>
+
+    <string name="slogan_tl">புதுச்சேரி நீர் நிலைகளை பாதுகாக்க ஓரூ புது முயற்சி</string>
+    <string name="slogan_fr">Une initiative pour la sauvegarde des masses d\'eau de Pondichéry</string>
+    <string name="slogan_hn">पुदुचेरी में जल निकायों की सुरक्षा के लिए एक पहल</string>
+    <string name="slogan_en">An Initiative to Safeguard Water Bodies of Puducherry</string>
+
+    <string name="profile_en">Save Profile</string>
+    <string name="profile_fr">Enregistrer le \nprofil</string>
+    <string name="profile_hn">जानकारी सहेजें</string>
+    <string name="profile_tl">சுயவிவரத்தை சேமிக்கவும்</string>
+
+    <string name="draft_en">Drafts</string>
+    <string name="draft_fr">brouillons</string>
+    <string name="draft_hn">ड्राफ्ट्‍स</string>
+    <string name="draft_tl">வரைவுகளை</string>
+
+    <string name="photo_en">Take Photos</string>
+    <string name="photo_fr">Prendre des \nphotos</string>
+    <string name="photo_hn">तस्वीरें ले</string>
+    <string name="photo_tl">புகைப்படம் எடு</string>
+
+    <string name="about_en">About</string>
+    <string name="about_fr">La description</string>
+    <string name="about_hn">विवरण</string>
+    <string name="about_tl">விளக்கம்</string>
+
+    <string name="map_en">View Map</string>
+    <string name="map_fr">Carte</string>
+    <string name="map_hn">नक्शा</string>
+    <string name="map_tl">வரைபடம்</string>
+
+    <string name="waterbodies_en">Know Your \nWater Bodies</string>
+    <string name="waterbodies_fr">plans d\'eau</string>
+    <string name="waterbodies_hn">जल निकायों</string>
+    <string name="waterbodies_tl">நீர்நிலைகள்</string>
+
+    <string name="grievance_en">Grievances</string>
+    <string name="grievance_fr">Grief</string>
+    <string name="grievance_hn">शिकायत</string>
+    <string name="grievance_tl">மனக்குறை</string>
+
+<!--    <string name="desilted_en">Desilted</string>-->
+<!--    <string name="desilted_fr">Grief</string>-->
+<!--    <string name="desilted_hn">शिकायत</string>-->
+<!--    <string name="desilted_tl">மனக்குறை</string>-->
+
+    <string name="about_desc_tl">
+                புதுச்சேரியின் அனைத்து நீர்நிலைகளையும் டிஜிட்டல் மயமாக்குவதற்காக இந்த பயன்பாடு உருவாக்கப்பட்டுள்ளது. புதுச்சேரியின் வாட்டர்போடி தகவல்களை கூட்டமாகப் பயன்படுத்துவதற்கான தளத்தையும் இந்த பயன்பாடு வழங்குகிறது.
+இந்த பயன்பாட்டை புதுச்சேரி அரசாங்கத்திற்காக நாக்பூரில் CSIR-NEERI உருவாக்கியுள்ளது.
+    </string>
+
+    <string name="about_desc_hn">
+यह ऐप पुडुचेरी के सभी जल निकायों के डिजिटलीकरण के लिए विकसित किया गया है। ऐप पुदुचेरी की वाटरबॉडी जानकारी को क्राउडसोर्स करने का प्लेटफॉर्म भी प्रदान करता है।
+पुडुचेरी सरकार के लिए ऐप CSIR-NEERI, नागपुर द्वारा विकसित किया गया है।
+    </string>
+
+    <string name="about_desc_en">
+This App is developed for digitisation of all water bodies of Puducherry. The App also provides the platform for crowdsourcing the waterbody information of Puducherry.
+The App is developed by CSIR-NEERI, Nagpur for Government of Puducherry.
+    </string>
+
+    <string name="about_desc_fr">
+Cette application est développée pour la numérisation de tous les plans d\'eau de Pondichéry. L\'application fournit également la plate-forme de crowdsourcing des informations sur les masses d\'eau de Pondichéry.
+L\'application est développée par CSIR-NEERI, Nagpur pour le gouvernement de Pondichéry.
+    </string>
+
+    <string name="about_description">
+
+      \"  நீர் பதிவு \" \n\n
+        புதுச்சேரியின் அனைத்து நீர்நிலைகளையும் டிஜிட்டல் மயமாக்குவதற்காக இந்த பயன்பாடு உருவாக்கப்பட்டுள்ளது. புதுச்சேரியின் வாட்டர்போடி தகவல்களை கூட்டமாகப் பயன்படுத்துவதற்கான தளத்தையும் இந்த பயன்பாடு வழங்குகிறது.
+இந்த பயன்பாட்டை புதுச்சேரி அரசாங்கத்திற்காக நாக்பூரில் CSIR-NEERI உருவாக்கியுள்ளது.
+        \n\n
+     \"   जल अभिलेख \"\n\n
+        यह ऐप पुडुचेरी के सभी जल निकायों के डिजिटलीकरण के लिए विकसित किया गया है। ऐप पुदुचेरी की वाटरबॉडी जानकारी को क्राउडसोर्स करने का प्लेटफॉर्म भी प्रदान करता है।
+पुडुचेरी सरकार के लिए ऐप CSIR-NEERI, नागपुर द्वारा विकसित किया गया है।
+        \n\n
+        \" Jal Abhilekh \" \n\n
+        This App is developed for digitisation of all water bodies of Puducherry. The App also provides the platform for crowdsourcing the waterbody information of Puducherry.
+The App is developed by CSIR-NEERI, Nagpur for Government of Puducherry.
+        \n\n
+        \" Jal Abhilekh \" \n\n
+        Cette application est développée pour la numérisation de tous les plans d\'eau de Pondichéry. L\'application fournit également la plate-forme de crowdsourcing des informations sur les masses d\'eau de Pondichéry.
+L\'application est développée par CSIR-NEERI, Nagpur pour le gouvernement de Pondichéry.
+    </string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="no_records">No Saved Records</string>
+    <string name="title_activity_home2">Home2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="collector_email"><u>dcrev.pon@nic.in</u></string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

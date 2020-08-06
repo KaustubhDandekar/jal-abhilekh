@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.neeri.wbis">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/trilogo_light_round"
+        android:label="@string/app_name"
+        android:logo="@mipmap/trilogo_light_round"
+        android:roundIcon="@mipmap/trilogo_light_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".UpdateDesilt"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".HomeActivity"/>
+        <activity android:name=".SubmitGrievance"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".VideoPlayerActivity"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".VideoGalleryActivity"/>
+        <activity
+            android:name=".VideoGalleryActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".Contact"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".AdoptLake"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".CommuneWise"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WaterBodiesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CircularsActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".MapsActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".SaveProfile"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".About"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".HomeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FillScreenImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ImageAlbumActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RecordsListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DraftActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".CapturePhotos"
+            android:immersive="true"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".CreateRecord"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".CapturePhotos"/>
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PreHome"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".tools.GenericFileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>
